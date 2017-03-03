@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechLab.RouteSort", "TechLab.RouteSort\TechLab.RouteSort.csproj", "{1C7CE4A9-ED34-428E-861E-C170CC81D6A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechLab.RouteSort.Tests", "TechLab.RouteSort.Tests\TechLab.RouteSort.Tests.csproj", "{E89B95A0-0B0E-459A-B664-F6572B08CF46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1C7CE4A9-ED34-428E-861E-C170CC81D6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C7CE4A9-ED34-428E-861E-C170CC81D6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C7CE4A9-ED34-428E-861E-C170CC81D6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89B95A0-0B0E-459A-B664-F6572B08CF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89B95A0-0B0E-459A-B664-F6572B08CF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89B95A0-0B0E-459A-B664-F6572B08CF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89B95A0-0B0E-459A-B664-F6572B08CF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

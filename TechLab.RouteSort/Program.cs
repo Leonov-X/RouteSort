@@ -10,6 +10,18 @@ namespace TechLab.RouteSort
     {
         static void Main(string[] args)
         {
+            List<RouteCard> routeCardList = new List<RouteCard>();
+            routeCardList.Add(new RouteCard("Москва", "Иркутск"));
+            routeCardList.Add(new RouteCard("Брест", "Москва"));
+            routeCardList.Add(new RouteCard("Иркутск", "Владивосток"));
+
+            Console.WriteLine($"Маршрутные карточки: {Route.Print(routeCardList)}");
+            routeCardList = Route.Generation(routeCardList);
+            Console.WriteLine($"Маршрут построенный: {Route.Print(routeCardList)}");
+
+            Console.WriteLine();
+
+            Console.ReadKey();
         }
     }
 }
