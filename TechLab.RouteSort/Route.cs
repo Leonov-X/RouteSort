@@ -63,6 +63,7 @@ namespace TechLab.RouteSort
                 }
             }
 
+            // Возвращаем Null если маршрут не удалось полностью построить
             return null;
         }
 
