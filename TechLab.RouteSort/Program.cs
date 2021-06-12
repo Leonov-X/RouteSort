@@ -21,6 +21,7 @@ namespace TechLab.RouteSort
 
             Console.WriteLine();
 
+            // Консоль ожидает нажатия клавиши
             Console.ReadKey();
         }
     }
